@@ -1,0 +1,97 @@
+@import url(https://use.typekit.net/gad1rxl.css);@import url(https://use.typekit.net/hrt6ppr.css);body,
+html,
+* {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 60px;
+  background-color: #000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav .left {
+  margin-left: 15em;
+}
+
+nav .left img {
+  height: 60px;
+}
+
+nav .right ul {
+  list-style-type: none;
+  display: flex;
+  line-height: 60px;
+  float: right;
+  margin-right: 15em;
+}
+
+nav .right ul li {
+  margin-left: 0.9em;
+  color: #fff;
+  text-decoration: none;
+  font-family: upgrade, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+nav .right ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.intro {
+  height: 60vh;
+  min-height: 400px;
+  max-height: 900px;
+  background-image: url(/images/intro_background.jpg?136855518c8031547822c3069cf67f7c);
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.intro h1 {
+  color: #fff;
+  display: block;
+  font-size: 4em;
+  font-family: uppercut-angle, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.info1 {
+  background-color: #fff;
+}
+
+.info1 .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.info1 .grid .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: none;
+}
+
+.info1 .grid .text p {
+  font-family: upgrade, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.3em;
+}
+
