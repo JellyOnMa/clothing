@@ -19335,8 +19335,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\laragon\www\clothing\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! D:\laragon\www\clothing\resources\sass\style.scss */"./resources/sass/style.scss");
+__webpack_require__(/*! D:\xampp\htdocs\clothing\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! D:\xampp\htdocs\clothing\resources\sass\style.scss */"./resources/sass/style.scss");
 
 
 /***/ })

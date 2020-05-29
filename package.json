@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "axios": "^0.19",
-    "cross-env": "^7.0",
+    "cross-env": "^7.0.2",
     "laravel-mix": "^5.0.4",
     "lodash": "^4.17.13",
     "resolve-url-loader": "^3.1.0",
@@ -27,5 +27,14 @@
     "test": "tests"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JellyOnMa/clothing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JellyOnMa/clothing/issues"
+  },
+  "homepage": "https://github.com/JellyOnMa/clothing#readme"
 }
