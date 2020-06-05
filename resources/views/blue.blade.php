@@ -18,7 +18,7 @@
                 <li>Random T-Shirt</li>
             </ul>
             <br><br><br>
-            <button>bestel</button>
+            <a href="/blue-box">Bestel</a>
         </div>
     </div>
 </div>

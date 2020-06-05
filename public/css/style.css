@@ -213,21 +213,17 @@ nav .right ul li a {
   font-size: 1.2em;
 }
 
-.info .grid .info button {
-  padding: 10px 40px;
-  font-family: upgrade, sans-serif;
-  font-weight: 400;
+.info .grid .info a {
+  text-decoration: none;
+  color: #fff;
+  padding: 16px 80px;
+  background: #121212;
+  cursor: pointer;
+  text-align: center;
+  font-family: uppercut-angle, sans-serif;
+  font-weight: 200;
   font-style: normal;
-  letter-spacing: 1px;
-  font-size: 1.2em;
-  border: none;
-  background-color: #cccccc;
-  transition: 0.5s ease-in-out;
-}
-
-.info .grid .info button:hover {
-  background-color: #878787;
-  transition: 0.5s ease-in-out;
+  line-height: 40px;
 }
 
 footer {
@@ -323,5 +319,71 @@ footer .content .grid2 h5 {
 footer .content .grid2 h5 a {
   text-decoration: none;
   color: #fff;
+}
+
+.order {
+  height: 100vh;
+  width: 100%;
+}
+
+.order .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.order .grid .right {
+  margin-top: 22em;
+}
+
+.order .grid .right h1 {
+  font-family: uppercut-angle, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.5em;
+}
+
+.order .grid .right form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1em;
+  width: 70%;
+}
+
+.order .grid .right form input {
+  border: 1px solid #575757;
+  padding: 10px 20px;
+  margin-top: 1em;
+}
+
+.order .grid .right form a {
+  text-decoration: none;
+  color: #fff;
+  padding: 6px 80px;
+  background: #121212;
+  cursor: pointer;
+  text-align: center;
+  font-family: uppercut-angle, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  line-height: 40px;
+}
+
+.succes {
+  height: 100vh;
+}
+
+.succes .middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: uppercut-angle, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+.succes .middle a {
+  color: #000;
 }
 

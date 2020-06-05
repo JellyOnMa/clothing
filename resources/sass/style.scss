@@ -223,20 +223,17 @@ nav {
                 font-size: 1.2em;
             }
 
-            & button {
-                padding: 10px 40px;
-                font-family: upgrade, sans-serif;
-                font-weight: 400;
+            & a {
+                text-decoration: none;
+                color: #fff;
+                padding: 16px 80px;
+                background: #121212;
+                cursor: pointer;
+                text-align: center;
+                font-family: uppercut-angle, sans-serif;
+                font-weight: 200;
                 font-style: normal;
-                letter-spacing: 1px;
-                font-size: 1.2em;
-                border: none;
-                background-color: #cccccc;
-                transition: .5s ease-in-out;
-            }
-            & button:hover {
-                background-color: #878787;
-                transition: .5s ease-in-out;
+                line-height: 40px;
             }
         }
     }
@@ -337,3 +334,68 @@ footer {
         }
     }
 }
+
+.order {
+    height: 100vh;
+    width: 100%;
+
+    & .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        & .right {
+            margin-top: 22em;
+
+            & h1 {
+                font-family: uppercut-angle, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 2.5em;
+            }
+            & form {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-gap: 1em;
+                width: 70%;
+
+                & input {
+                    border: 1px solid #575757;
+                    padding: 10px 20px;
+                    margin-top: 1em;
+                }
+
+                & a {
+                   text-decoration: none;
+                    color: #fff;
+                    padding: 6px 80px;
+                    background: #121212;
+                    cursor: pointer;
+                    text-align: center;
+                    font-family: uppercut-angle, sans-serif;
+                    font-weight: 200;
+                    font-style: normal;
+                    line-height: 40px;
+                }
+            }
+        }
+    }
+}
+.succes {
+    height: 100vh;
+
+    & .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-family: uppercut-angle, sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 1.5em;
+
+        & a {
+            color: #000
+        }
+    }
+}
+
