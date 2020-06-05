@@ -19,7 +19,7 @@
                 <li>Random Hoodie</li>
             </ul>
             <br><br><br>
-            <button>bestel</button>
+            <a href="/silver-box">Bestel</a>
         </div>
     </div>
 </div>

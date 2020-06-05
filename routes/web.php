@@ -25,3 +25,16 @@ Route::get('/silver', function () {
 Route::get('/gold', function () {
     return view('gold');
 });
+Route::get('/blue-box', function () {
+    return view('b_blue');
+});
+Route::get('/silver-box', function () {
+    return view('b_silver');
+});
+Route::get('/gold-box', function () {
+    return view('b_gold');
+});
+Route::get('/order-succes', function () {
+    return view('succes');
+});
+

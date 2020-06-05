@@ -11,11 +11,11 @@
 <body>
 <nav>
     <div class="left">
-        <img src="images/logo.png" alt="">
+        <a href="/"><img src="images/logo.png" alt=""></a>
     </div>
     <div class="right">
         <ul>
-            <li><a href="#top">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="#shop">New</a></li>
             <li><a href="#shop">Shop</a></li>
             <li><a href="">Contact</a></li>
