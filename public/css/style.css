@@ -165,6 +165,14 @@ nav .right ul li a {
   width: 100%;
 }
 
+.collection .grid .box h3 {
+  text-align: center;
+  font-family: upgrade, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
+}
+
 .info .grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -213,21 +221,17 @@ nav .right ul li a {
   font-size: 1.2em;
 }
 
-.info .grid .info button {
-  padding: 10px 40px;
-  font-family: upgrade, sans-serif;
-  font-weight: 400;
+.info .grid .info a {
+  text-decoration: none;
+  color: #fff;
+  padding: 16px 80px;
+  background: #121212;
+  cursor: pointer;
+  text-align: center;
+  font-family: uppercut-angle, sans-serif;
+  font-weight: 200;
   font-style: normal;
-  letter-spacing: 1px;
-  font-size: 1.2em;
-  border: none;
-  background-color: #cccccc;
-  transition: 0.5s ease-in-out;
-}
-
-.info .grid .info button:hover {
-  background-color: #878787;
-  transition: 0.5s ease-in-out;
+  line-height: 40px;
 }
 
 footer {
@@ -325,8 +329,7 @@ footer .content .grid2 h5 a {
   color: #fff;
 }
 
-<<<<<<< Updated upstream
-=======
+
 .order {
   height: 100vh;
   width: 100%;
@@ -393,6 +396,7 @@ footer .content .grid2 h5 a {
   color: #000;
 }
 
+
 .info {
   height: 100vh;
   background-image: url(/images/info.jpg?8b258640e19483a07496dd6ea86b27e6);
@@ -455,4 +459,4 @@ footer .content .grid2 h5 a {
   font-size: 1.4em;
 }
 
->>>>>>> Stashed changes
+

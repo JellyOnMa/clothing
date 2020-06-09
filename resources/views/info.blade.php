@@ -1,5 +1,6 @@
 @include('includes/head')
 
+
 <div class="info">
     <div class="text">
         <h1>Over 69-Clothing</h1>
@@ -14,5 +15,8 @@
 
     <p class="bttm">Verdere vragen? mail ons: support@69clothing.nl</p>
 </div>
+
+<div class="info"></div>
+
 
 @include('includes/footer')

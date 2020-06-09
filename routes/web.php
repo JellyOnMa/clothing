@@ -16,6 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/info', function () {
+    return view('info');
+});
+Route::get('/shop', function () {
+    return view('shop');
+});
 Route::get('/blue', function () {
     return view('blue');
 });
@@ -25,3 +31,16 @@ Route::get('/silver', function () {
 Route::get('/gold', function () {
     return view('gold');
 });
+Route::get('/blue-box', function () {
+    return view('b_blue');
+});
+Route::get('/silver-box', function () {
+    return view('b_silver');
+});
+Route::get('/gold-box', function () {
+    return view('b_gold');
+});
+Route::get('/order-succes', function () {
+    return view('succes');
+});
+

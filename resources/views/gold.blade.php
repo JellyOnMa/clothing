@@ -21,8 +21,8 @@
                 <li>Actie codes voor website</li>
             </ul>
             <br><br><br>
-            <button>bestel</button>
-        </div>
+            <a href="/gold-box">Bestel</a>
+        </div>1
     </div>
 </div>
 
