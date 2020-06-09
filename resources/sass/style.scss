@@ -347,6 +347,7 @@ footer {
     }
 }
 
+
 .order {
     height: 100vh;
     width: 100%;
@@ -408,6 +409,73 @@ footer {
         & a {
             color: #000
         }
+    }
+}
+
+
+//info
+.info {
+    height: 100vh;
+    background-image: url('../../public/img/info.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    .text {
+        width: 80%;
+        margin: 0 auto;
+        z-index: 10;
+
+
+        & h1 {
+            padding-top: 7em;
+            font-family: uppercut-angle, sans-serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+
+
+        & p {
+            max-width: 70%;
+            font-family: upgrade-lights, sans-serif;
+            font-weight: 400;
+            font-size: 1.4em;
+            margin-top: .8em;
+        }
+    }
+
+    .text2 {
+        width: 80%;
+        margin: 0 auto;
+        z-index: 10;
+        text-align: right;
+
+
+        & h1 {
+            padding-top: 7em;
+            font-family: uppercut-angle, sans-serif;
+            font-weight: 200;
+            font-style: normal;
+        }
+
+        & p {
+            margin-top: .8em;
+            max-width: 70%;
+            margin-left: 30%;
+            font-family: upgrade-lights, sans-serif;
+            font-weight: 400;
+            font-size: 1.4em;
+        }
+    }
+
+    & p.bttm {
+        position: absolute;
+        top: 98%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-family: upgrade-lights, sans-serif;
+        font-weight: 600;
+        font-size: 1.4em;
     }
 }
 
