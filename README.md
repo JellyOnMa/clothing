@@ -16,6 +16,6 @@ het project moet 19/06/2020 worden ingeleverd.
  
  *Bestanden*
  
- [Styleboard](https://xd.adobe.com/view/1b1238b8-3452-4f83-6a44-9c004e972f97-6d23/)
+ * [Styleboard](https://xd.adobe.com/view/1b1238b8-3452-4f83-6a44-9c004e972f97-6d23/)
 
 > 15/06/2020 12:53
