@@ -10,7 +10,6 @@ het project moet 19/06/2020 worden ingeleverd.
 
 #### To-Do
 * Responsive maken
-* /Account pagina maken
 * wireframes afmaken
  
  
