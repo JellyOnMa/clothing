@@ -8,10 +8,10 @@
 
                     <div class="list">
                         <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">New</a></li>
-                            <li><a href="">Shop</a></li>
-                            <li><a href="">Contact</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="/info">Informatie</a></li>
+                            <li><a href="/shop">Shop</a></li>
+                            <li><a href="account">account</a></li>
                         </ul>
                     </div>
 

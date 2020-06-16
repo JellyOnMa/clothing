@@ -8,9 +8,9 @@
             <div class="spacing-medium"></div>
             <div class="box"><img src="../../images/boxes/2.png" alt=""></div>
         </div>
-        <div class="info">
+        <div class="info_box">
             <h2>Silver box</h2>
-            <p>€85,-</p>
+            <p>€85,- Per Maand</p>
             <br>
             <h3>In deze box</h3>
             <ul>

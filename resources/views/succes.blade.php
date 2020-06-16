@@ -1,4 +1,5 @@
 @include('includes/head')
+<meta http-equiv="refresh" content="3;url=/" />
 
 <div class="succes">
     <div class="middle">
@@ -8,3 +9,5 @@
 </div>
 
 @include('includes/footer')
+
+</script>
