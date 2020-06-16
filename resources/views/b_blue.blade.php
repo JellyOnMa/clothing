@@ -17,7 +17,12 @@
                 <input type="text" placeholder="Streetname">
                 <input type="text" placeholder="Streetnumber">
                 <input type="text" placeholder="Country">
-                <a href="/order-succes">Bestel</a>
+                <select>
+                    <option value="">PostNL (volgende dag in huis) *Gratis*</option>
+                    <option value="">PostNL avond levering (voor 11 uur 's ochtends)*5,99,-*</option>
+                    <option value="">DHL (Volgende werkdag in huis)*Gratis*</option>
+                </select>
+                <a href="/betalen">Verder</a>
             </form>
         </div>
     </div>

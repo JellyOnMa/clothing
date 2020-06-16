@@ -53,7 +53,7 @@ nav {
                 color: #fff;
                 text-decoration: none;
                 font-family: upgrade, sans-serif;
-                font-weight: 400;
+                font-weight: 200;
                 font-style: normal;
                 font-size: 1.5em;
 
@@ -200,7 +200,7 @@ nav {
             margin: 0 auto;
         }
 
-        & .info {
+        & .info_box {
             position: absolute;
             top: 35%;
             left: 50%;
@@ -479,3 +479,131 @@ footer {
     }
 }
 
+//account
+.account {
+    height: 100vh;
+
+    & .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80%;
+        margin: 0 auto;
+        padding-top: 13em;
+        grid-row-gap: 2em;
+
+        & h1 {
+            margin: 0;
+            font-family: uppercut-angle, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            padding-left: .8em;
+        }
+
+        & a.loguit {
+            color: #000;
+            font-family: upgrade-lights, sans-serif;
+            font-size: 1.4em;
+        }
+
+        & .left {
+
+            & h2 {
+                font-family: upgrade-lights, sans-serif;
+                font-weight: 400;
+                font-size: 1.7em;
+                padding-left: .8em;
+            }
+
+            & img {
+                width: 500px;
+            }
+            & a {
+                color: #000;
+                font-family: upgrade-lights, sans-serif;
+            }
+        }
+
+        & .right {
+
+            & h2 {
+                font-family: upgrade-lights, sans-serif;
+                font-weight: 400;
+                font-size: 1.7em;
+            }
+
+            & p {
+                font-family: upgrade-lights, sans-serif;
+                font-weight: 400;
+                font-size: 1.3em;
+            }
+            & a {
+                color: #000;
+                font-family: upgrade-lights, sans-serif;
+            }
+        }
+    }
+}
+.betalen {
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+
+    & ._middle {
+        position: relative;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        display: block;
+
+
+
+        & form {
+            padding: 0;
+            width: 200px;
+            margin: 0 auto;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr;
+
+            & h4 {
+                font-family: upgrade-lights, sans-serif;
+                text-align: left;
+            }
+
+            & input {
+                border: 1px solid #575757;
+                padding: 10px 20px;
+                margin-top: 1em;
+            }
+
+            & .grid {
+                margin: 0 auto;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                & input {
+                    border: 1px solid #575757;
+                    padding: 10px 20px;
+                    margin-top: 1em;
+                }
+            }
+
+            a {
+                width: 100%;
+                background: #636b6f;
+                padding: 10px 0;
+                text-decoration: none;
+                color: #fff;
+                transition: .5s;
+                font-family: upgrade-lights, sans-serif;
+
+                &:hover {
+                    background: #121212;
+                    transition: .5s;
+                }
+            }
+        }
+    }
+}

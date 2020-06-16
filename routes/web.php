@@ -21,6 +21,8 @@ Route::get('/info', function () {
 });
 Route::get('/shop', function () {
     return view('shop');
+});Route::get('/account', function () {
+    return view('account');
 });
 Route::get('/blue', function () {
     return view('blue');
@@ -39,6 +41,9 @@ Route::get('/silver-box', function () {
 });
 Route::get('/gold-box', function () {
     return view('b_gold');
+});
+Route::get('/betalen', function () {
+    return view('betalen');
 });
 Route::get('/order-succes', function () {
     return view('succes');

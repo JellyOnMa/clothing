@@ -16,7 +16,6 @@
     <p class="bttm">Verdere vragen? mail ons: support@69clothing.nl</p>
 </div>
 
-<div class="info"></div>
 
 
 @include('includes/footer')
