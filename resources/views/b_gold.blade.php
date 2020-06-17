@@ -25,6 +25,7 @@
                 <a href="/betalen">Verder</a>
             </form>
         </div>
+        <div class="spacing-medium"></div>
     </div>
 </div>
 

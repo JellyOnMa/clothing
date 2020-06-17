@@ -9,11 +9,11 @@
     </div>
     <div class="text2">
         <h1>materiaal wat wij gebruiken</h1>
-        <div class="line"></div>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aperiam corporis nobis qui quod vero. Ab accusantium asperiores autem deserunt exercitationem illo neque omnis, quis quo quod sequi tempora vero?</p>
     </div>
 
     <p class="bttm">Verdere vragen? mail ons: support@69clothing.nl</p>
+    <div class="spacing-medium"></div>
 </div>
 
 

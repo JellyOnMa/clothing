@@ -9,6 +9,7 @@
     padding: 0;
     border: 0;
     scroll-behavior: smooth;
+    max-width: 100%;
 }
 body{
     overflow-x: hidden;
@@ -19,6 +20,9 @@ body{
 
 .spacing-medium {
     height: 100px;
+}
+.spacing-medium_info {
+    display: none;
 }
 
 //nav
@@ -605,5 +609,165 @@ footer {
                 }
             }
         }
+    }
+}
+
+//1400px
+@media only screen and (max-width: 1400px) {
+    .info .text h1, .info .text2 h1 {
+        padding-top: 3em ;
+    }
+}
+
+//1000px
+@media only screen and (max-width: 1000px) {
+
+    //index
+    //info img (hoodie) weg
+    .info1 .grid {
+        grid-template-columns: 1fr;
+
+        & .img {
+            display: none;
+        }
+    }
+
+    //text in info1 breeder
+    .info1 .grid .text p {
+        width: 90%;
+    }
+
+    .spacing-medium_info {
+        display: block;
+        height: 100px;
+    }
+
+        //footer responsive
+    footer .content .grid1 {
+        grid-template-columns: 1fr 1fr;
+
+        & .img {
+            display: none;
+        }
+    }
+
+    //nav responsive
+    nav {
+        grid-template-columns: 1fr;
+
+        & .left {
+            display: none;
+        }
+
+        & .right {
+            margin: 0 auto;
+
+            ul {
+                float: none;
+                margin: 0 auto;
+
+                & li {
+                    margin: 0 .4em 0 .4em;
+                }
+            }
+        }
+    }
+
+    //images in 2 colums niet 3
+    .gallery .grid {
+        grid-template-columns: 1fr 1fr;
+
+        & .img2 {
+            display: none;
+        }
+    }
+    //index end
+
+    //shop
+    .collection .grid {
+        grid-template-columns: 1fr;
+    }
+    //sr = shop responsive
+    .sr {
+        display: none;
+    }
+    //shop info
+    .info .grid {
+        grid-template-columns: 1fr;
+
+        & .info_box {
+            position: initial;
+            display: block;
+            margin-left: 1em;
+        }
+    }
+    //shop adress
+    .order {
+        height: auto;
+        & .grid {
+            grid-template-columns: 1fr;
+
+            & .right {
+                margin-top: 3em;
+                margin-left: 2em;
+            }
+        }
+    }
+
+    //shop end
+}
+
+@media only screen and (max-width: 650px) {
+    //images in 1 colums niet 2
+    .gallery .grid {
+        grid-template-columns: 1fr;
+
+        & .img3, .img1 {
+            display: none;
+        }
+    }
+    //info pagina text kleiner
+    .info .text, .info .text2 {
+        font-size: .8em;
+
+        & p {
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+    .info {
+        height: auto;
+
+        .grid {
+            height: auto;
+        }
+
+        & p.bttm {
+            display: none;
+        }
+
+        & .text2 p {
+            margin-left: 0;
+        }
+    }
+
+    // order adress form grid naar 1fr
+    .order .grid .right form {
+        grid-template-columns: 1fr;
+        max-width: 90%;
+
+        & input, select {
+            width: 200px;
+        }
+        & a {
+            padding: 0;
+        }
+    }
+    //order creditcard
+    .betalen ._middle form input {
+        width: 200px;
+    }
+    .betalen ._middle form .grid {
+        grid-template-columns: 1fr;
     }
 }

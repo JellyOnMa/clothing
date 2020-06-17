@@ -3,7 +3,7 @@
        <div class="intro" id="top">
            <h1>69 Clothing</h1>
        </div>
-
+    <div class="spacing-medium_info"></div>
        <div class="info1">
            <div class="grid">
                <div class="text">
@@ -14,6 +14,7 @@
                </div>
            </div>
        </div>
+    <div class="spacing-medium_info"></div>
 
         <div class="gallery">
             <div class="grid">
