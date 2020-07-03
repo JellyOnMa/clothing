@@ -22,7 +22,7 @@
             </ul>
             <br><br><br>
             <a href="/gold-box">Bestel</a>
-        </div>1
+        </div>
     </div>
 </div>
 

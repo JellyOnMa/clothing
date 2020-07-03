@@ -27,6 +27,7 @@
             <h2>Post methode</h2>
             <p>PostNL</p>
             <a href="/account">verander</a>
+            <div class="spacing-medium"></div>
         </div>
     </div>
 </div>

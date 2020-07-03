@@ -4,6 +4,7 @@
   border: 0;
   scroll-behavior: smooth;
   max-width: 100%;
+  box-sizing: border-box;
 }
 
 body {
@@ -735,6 +736,15 @@ footer .content .grid2 h5 a {
   }
 
   .betalen ._middle form .grid {
+    grid-template-columns: 1fr;
+  }
+
+  .account {
+    height: auto;
+  }
+
+  .account .grid {
+    padding-top: 10em;
     grid-template-columns: 1fr;
   }
 }

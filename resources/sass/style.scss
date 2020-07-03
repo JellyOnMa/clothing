@@ -10,6 +10,7 @@
     border: 0;
     scroll-behavior: smooth;
     max-width: 100%;
+    box-sizing: border-box;
 }
 body{
     overflow-x: hidden;
@@ -769,5 +770,13 @@ footer {
     }
     .betalen ._middle form .grid {
         grid-template-columns: 1fr;
+    }
+    //Account
+    .account{
+        height: auto;
+        & .grid {
+            padding-top: 10em;
+            grid-template-columns: 1fr;
+        }
     }
 }
